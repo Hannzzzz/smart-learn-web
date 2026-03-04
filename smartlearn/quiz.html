@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartLearn - Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="videos.html">Videos</a>
+      <a href="notes.html">Notes</a>
+    </nav>
+  </header>
+  <main>
+    <section id="create-quiz">
+      <h2>Buat Quiz</h2>
+      <textarea id="new-quiz" placeholder="Masukkan soal-soal dalam format JSON"></textarea>
+      <button id="save-quiz">Simpan Quiz</button>
+    </section>
+    <section id="take-quiz">
+      <h2>Kerjakan Quiz</h2>
+      <select id="quiz-list"></select>
+      <button id="start-quiz">Mulai</button>
+      <div id="quiz-content"></div>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
